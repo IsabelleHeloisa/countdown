@@ -7,7 +7,7 @@ function App() {
     <div className="App" style={{ backgroundImage: `url(${NewYear})` }}>
       <div className="container">
         <Title title="contagem regressiva para 2024" />
-        <div className="coutdown-container">
+        <div className="countdown-container">
           <Counter title="Dias" number={2} />
           <Counter title="Horas" number={12} />
           <Counter title="minutos" number={31} />

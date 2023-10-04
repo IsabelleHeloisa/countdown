@@ -1,4 +1,4 @@
-import React from 'react'
+import './Counter.css'
 
 export default function Counter({ title, number }) {
   return (
