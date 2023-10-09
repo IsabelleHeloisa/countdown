@@ -1,5 +1,9 @@
 import './Title.css'
 
-export default function Title({ title }) {
-  return <h1 className="title">{title}</h1>
+export default function Title({ title, eventColor }) {
+  return (
+    <h1 className="title" style={{ color: eventColor }}>
+      {title}
+    </h1>
+  )
 }
